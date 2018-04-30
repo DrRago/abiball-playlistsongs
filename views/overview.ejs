@@ -2,33 +2,47 @@
 <head>
     <title>Abiball Playlist</title>
 
-    <% include parts/css.ejs %>
+    <% include parts/css_js.ejs %>
 
 </head>
 
-<body>
-<div class="container mt-5">
-    <div class="card pl-3 pt-2">
-        <div class="card-block">
-            <% for (var key in DATA) {
-            if (DATA.hasOwnProperty(key)) { %>
-            <h3 class="card-title"><%= key %></h3>
-            <hr>
-            <ul>
-                <% for (var entry in DATA[key]) {
-                if (DATA[key].hasOwnProperty(entry)) { %>
-                <li><a href="<%= DATA[key][entry].url %>" target="_blank"><%= entry %></a></li>
-                <%
-                }
-                }
-                %>
-            </ul>
-            <%
-            }
-            } %>
-        </div>
-    </div>
+<body class="bg-dark">
+<%- include("parts/header.ejs", {TITLE: "Abiball Playlist Voting"}) %>
 
+<div class="container mt-5">
+    <% include parts/search.ejs %>
+
+    <table class="table table-hover table-dark pl-3 pt-2 mt-2">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Track</th>
+            <th scope="col">Album</th>
+            <th scope="col">Artists</th>
+            <th scope="col" style="width: 100px !important;"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <% TRACKS.forEach((track, index) => { %>
+        <%- include("parts/vote_row", {NUM: index, DATA: track}) %>
+        <% }) %>
+        </tbody>
+    </table>
+    <script>
+        $(".fa-thumbs-up").click(function (event) {
+            $.post("/vote/up", {id: $(this).closest("td").attr("data-track")})
+            let num = parseInt($(this).closest("tr").find("a").text());
+            num += 1;
+            $(this).closest("tr").find("a").text(num);
+        })
+
+        $(".fa-thumbs-down").click(function (event) {
+            $.post("/vote/down", {id: $(this).closest("td").attr("data-track")})
+            let num = parseInt($(this).closest("tr").find("a").text());
+            num -= 1;
+            $(this).closest("tr").find("a").text(num);
+        })
+    </script>
 </div>
 </body>
 </html>

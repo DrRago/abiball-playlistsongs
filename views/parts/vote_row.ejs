@@ -1,0 +1,13 @@
+<%let names = "";
+DATA.full_track.artists.forEach((artist) => {
+    names += artist.name + ", "
+});
+names = names.substr(0, names.length-2)
+%>
+<tr class="vote-row">
+    <th scope="row"><%= NUM+1 %></th>
+    <td><%= DATA.full_track.name %></td>
+    <td><%= DATA.full_track.album.name %></td>
+    <td><%= names %></td>
+    <td scope="row" class="text-lg-right" data-track="<%= DATA.spotify_track %>"><i class="fas fa-thumbs-up fa-lg mr-2"></i><a><%= DATA.votes %></a><i class="fas fa-thumbs-down fa-lg ml-2"></i></td>
+</tr>

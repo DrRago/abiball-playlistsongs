@@ -1,0 +1,55 @@
+<div class="ui search">
+    <div class="ui left icon input">
+        <input class="prompt" placeholder="Search Spotify" type="text">
+        <i class="music icon"></i>
+    </div>
+</div>
+<style>
+
+</style>
+
+<script>
+    $('.ui.search')
+        .search({
+            type: 'category',
+            minCharacters: 3,
+            apiSettings: {
+                onResponse: function (githubResponse) {
+                    let response = {
+                            results: {}
+                        }
+                    ;
+                    // translate GitHub API response to work with search
+                    $.each(githubResponse, function (index, item) {
+                        let artists = "";
+                        item.artists.forEach((element) => {
+                            artists += element.name + ", "
+                        })
+                        artists = artists.substr(0, artists.length - 2)
+                        //alert(artists)
+                        let album = item.album.name
+
+                        if (album.length >= 15) {
+                            album = album.substr(0, 13) + "..."
+                        }
+
+                        // create new language category
+                        if (response.results[album] === undefined) {
+                            response.results[album] = {
+                                name: album,
+                                results: []
+                            };
+                        }
+                        // add result to category
+                        response.results[album].results.push({
+                            title: item.name,
+                            description: "by " + artists,
+                            url: item.external_urls.spotify
+                        });
+                    });
+                    return response;
+                },
+                url: '//localhost:8888/search/{query}'
+            }
+        });
+</script>

@@ -179,3 +179,613 @@ SyntaxError: Unexpected string
     at Module.require (module.js:497:17)
     at require (internal/module.js:20:19)
     at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:10:16), timestamp: 2018-04-29T18:52:34.338Z},
+{level: error, message: uncaughtException: Cannot find module './overview/get.js'
+Error: Cannot find module './overview/get.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:1:82)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T16:07:56.760Z},
+{level: error, message: uncaughtException: missing ) after argument list
+C:\xampp\htdocs\abiball-playlist\src\routes\playlist\get.js:28
+                });
+                 ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:1:82), timestamp: 2018-04-30T16:12:26.006Z},
+{level: error, message: uncaughtException: Invalid regular expression: /^[\/?$/: Unterminated character class
+SyntaxError: Invalid regular expression: /^[\/?$/: Unterminated character class
+    at RegExp (native)
+    at pathtoRegexp (C:\xampp\htdocs\abiball-playlist\node_modules\path-to-regexp\index.js:128:10)
+    at new Layer (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\index.js:494:15)
+    at EventEmitter.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\application.js:256:23)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:9)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32), timestamp: 2018-04-30T16:48:18.422Z},
+{level: error, message: uncaughtException: Invalid regular expression: /^[\/?$/: Unterminated character class
+SyntaxError: Invalid regular expression: /^[\/?$/: Unterminated character class
+    at RegExp (native)
+    at pathtoRegexp (C:\xampp\htdocs\abiball-playlist\node_modules\path-to-regexp\index.js:128:10)
+    at new Layer (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\index.js:494:15)
+    at EventEmitter.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\application.js:256:23)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:9)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32), timestamp: 2018-04-30T16:50:13.387Z},
+{level: error, message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\route.js:202:15)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:26)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7), timestamp: 2018-04-30T16:51:03.918Z},
+{level: error, message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\route.js:202:15)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:28)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7), timestamp: 2018-04-30T16:51:25.846Z},
+{level: error, message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\route.js:202:15)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:29)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7), timestamp: 2018-04-30T16:51:30.232Z},
+{level: error, message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\route.js:202:15)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:24)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7), timestamp: 2018-04-30T16:51:40.272Z},
+{level: error, message: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\route.js:202:15)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:24)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7), timestamp: 2018-04-30T16:51:49.511Z},
+{level: error, message: uncaughtException: Invalid regular expression: /^\/(?(?:([^\/]+?)))?\/?$/: Invalid group
+SyntaxError: Invalid regular expression: /^\/(?(?:([^\/]+?)))?\/?$/: Invalid group
+    at RegExp (native)
+    at pathtoRegexp (C:\xampp\htdocs\abiball-playlist\node_modules\path-to-regexp\index.js:128:10)
+    at new Layer (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\index.js:494:15)
+    at EventEmitter.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\application.js:256:23)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:9)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32), timestamp: 2018-04-30T16:55:11.641Z},
+{level: error, message: uncaughtException: Invalid regular expression: /^\/(?(?:([^\/]+?)))?\/?$/: Invalid group
+SyntaxError: Invalid regular expression: /^\/(?(?:([^\/]+?)))?\/?$/: Invalid group
+    at RegExp (native)
+    at pathtoRegexp (C:\xampp\htdocs\abiball-playlist\node_modules\path-to-regexp\index.js:128:10)
+    at new Layer (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\router\index.js:494:15)
+    at EventEmitter.route (C:\xampp\htdocs\abiball-playlist\node_modules\express\lib\application.js:256:23)
+    at module.exports (C:\xampp\htdocs\abiball-playlist\src\routes\routing.js:5:9)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:65:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32), timestamp: 2018-04-30T16:55:36.749Z},
+{level: error, message: uncaughtException: result[i].get is not a function
+TypeError: result[i].get is not a function
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:29:35)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7), timestamp: 2018-04-30T17:36:13.266Z},
+{level: error, message: uncaughtException: Unexpected token }
+C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:30
+    })
+    ^
+
+SyntaxError: Unexpected token }
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\routes\playlist\get.js:1:84), timestamp: 2018-04-30T17:40:19.768Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:45:08.324Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:45:31.352Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:46:29.111Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:46:37.178Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:46:44.166Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:46:48.257Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:46:53.063Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:47:03.160Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:47:10.906Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:47:18.331Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:47:24.886Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:48:04.486Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:48:06.897Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:48:14.791Z},
+{level: error, message: uncaughtException: Cannot find module 'log'
+Error: Cannot find module 'log'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:3:13)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3), timestamp: 2018-04-30T17:48:25.854Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T17:50:02.480Z},
+{level: crit, message: ERROR: WebapiError: Bad Request, timestamp: 2018-04-30T17:50:32.634Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T17:51:37.232Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:51.574Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:55.160Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:56.218Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:56.734Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:57.012Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:57.256Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:57.460Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:57.696Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:57.896Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:58.124Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:58.342Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:10:11
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:00:58.554Z},
+{level: error, message: uncaughtException: Cannot read property 'then' of undefined
+TypeError: Cannot read property 'then' of undefined
+    at C:\xampp\htdocs\abiball-playlist\src\routes\vote\get.js:9:15
+    at Query.constants.CONNECTIONS.MYSQL.query [as _callback] (C:\xampp\htdocs\abiball-playlist\src\util\mysql.js:36:9)
+    at Query.Sequence.end (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query._handleFinalResultPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\xampp\htdocs\abiball-playlist\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13), timestamp: 2018-04-30T18:03:32.404Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:11:07.291Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:11:08.554Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:07.659Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:12:08.698Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:08.795Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:10.441Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:11.082Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:11.605Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:11.987Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:12.347Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:12.978Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:13.573Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:13.821Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:12:14.071Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:13:15.666Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:15:47.334Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:15:49.260Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:16:09.036Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:16:09.257Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:16:12.623Z},
+{level: crit, message: Cannot enqueue Query after fatal error., timestamp: 2018-04-30T19:17:47.709Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:17:51.867Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:19:18.920Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:20:32.148Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:21:06.595Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:21:23.427Z},
+{level: crit, message: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES), timestamp: 2018-04-30T19:21:44.263Z},
+{level: error, message: uncaughtException: routs is not defined
+ReferenceError: routs is not defined
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:77:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:496:3, timestamp: 2018-04-30T19:24:57.646Z},
+{level: error, message: uncaughtException: rheerh is not defined
+ReferenceError: rheerh is not defined
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:74:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:496:3, timestamp: 2018-04-30T19:25:06.602Z},
+{level: error, message: uncaughtException: Cannot read property 'onmsgesturechange' of undefined
+TypeError: Cannot read property 'onmsgesturechange' of undefined
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\app.js:75:12)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:383:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:496:3, timestamp: 2018-04-30T19:25:21.350Z},
+{level: error, message: uncaughtException: (no error message)
+  No stack trace, timestamp: 2018-04-30T19:25:36.048Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T20:54:27.662Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T20:55:51.617Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T21:40:28.913Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T21:41:03.643Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.430Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.435Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.437Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.437Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.440Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.440Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.442Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.446Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.449Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.452Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.454Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.477Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:03:30.478Z},
+{level: error, message: uncaughtException: Unexpected token )
+C:\xampp\htdocs\abiball-playlist\src\util\spotifyAPI.js:105
+)
+^
+
+SyntaxError: Unexpected token )
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\xampp\htdocs\abiball-playlist\src\routes\playlist\get.js:1:84), timestamp: 2018-04-30T22:10:34.510Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:19:04.791Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:20:43.153Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:20:57.859Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:58:08.062Z},
+{level: crit, message: Bad Request, timestamp: 2018-04-30T22:58:37.867Z},
+{level: error, message: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at exports._errnoException (util.js:1020:11)
+    at TCP.onread (net.js:568:26), timestamp: 2018-04-30T23:16:27.336Z},
