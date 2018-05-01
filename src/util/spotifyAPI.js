@@ -26,13 +26,16 @@ const get_spotify_api = (callback) => {
 };
 
 const get_tracks_info = (tracks, callback) => {
+    if (tracks.length > 50) {
+        tracks = tracks.slice(0, 50)
+    }
     get_spotify_api(function (spotify_api) {
         spotify_api.getTracks(tracks).then(
             function (data) {
                 callback(data.body)
             },
             function (err) {
-                log.crit(err);
+                console.log(err);
                 constants.ERROR = true;
             }
         )
@@ -93,11 +96,13 @@ const search_album = (query, callback) => {
                 }
 
                 get_album_tracks(data.body.albums.items[0].id, (tracks) => {
-                    tracks.items.forEach((track, index) => {
-                        track.album = {};
-                        track.album.name = index + 1
+                    let track_ids = [];
+                    tracks.items.forEach((track) => {
+                        track_ids.push(track.id)
                     });
-                    return callback(tracks.items)
+                    get_tracks_info(track_ids, (full_tracks) => {
+                        return callback(full_tracks.tracks)
+                    })
                 });
             },
             function (err) {
@@ -111,14 +116,24 @@ const search_album = (query, callback) => {
 const search_artists = (query, callback) => {
     query = query.substr(query.indexOf(":") + 1, query.length)
     get_spotify_api((spotify_api) => {
-            spotify_api.searchArtists(query, {limit: 1}).then(
+            spotify_api.searchArtists(query, {limit: 10}).then(
                 function (data) {
                     if (data.body.artists.total === 0) {
                         return callback("")
                     }
+                    let top = data.body.artists.items[0]
                     data.body.artists.items.forEach((artist) => {
-                        get_artist_top(artist.id, (data) => {
-                            callback(data.tracks)
+                        if (artist.popularity > top.popularity) {
+                            top = artist
+                        }
+                    });
+                    get_artist_top(top.id, (data) => {
+                        let track_ids = [];
+                        data.tracks.forEach((track) => {
+                            track_ids.push(track.id)
+                        });
+                        get_tracks_info(track_ids, (full_tracks) => {
+                            return callback(full_tracks.tracks)
                         })
                     })
                 })
@@ -145,7 +160,6 @@ const get_playlist = (user, playlist, callback) => {
 }
 
 const search_playlist = (query, callback) => {
-    let result = [];
     query = query.substr(query.indexOf(":") + 1, query.length)
     get_spotify_api((spotify_api) => {
         spotify_api.searchPlaylists(query, {limit: 1}).then(
@@ -154,10 +168,13 @@ const search_playlist = (query, callback) => {
                     return callback("")
                 }
                 get_playlist(data.body.playlists.items[0].owner.id, data.body.playlists.items[0].id, (data) => {
+                    let track_ids = [];
                     data.items.forEach((item) => {
-                        result.push(item.track)
+                        track_ids.push(item.track.id)
+                    });
+                    get_tracks_info(track_ids, (full_tracks) => {
+                        return callback(full_tracks.tracks)
                     })
-                    callback(result)
                 });
             },
             function (err) {
@@ -174,5 +191,8 @@ module.exports = {
     search_tracks,
     search_album,
     search_artists,
-    search_playlist
+    search_playlist,
+    get_artist_top,
+    get_album_tracks,
+    get_playlist
 }

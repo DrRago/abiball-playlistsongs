@@ -789,3 +789,6 @@ SyntaxError: Unexpected token )
 Error: read ECONNRESET
     at exports._errnoException (util.js:1020:11)
     at TCP.onread (net.js:568:26), timestamp: 2018-04-30T23:16:27.336Z},
+{level: crit, message: Bad Request, timestamp: 2018-05-01T12:56:50.806Z},
+{level: crit, message: Bad Request, timestamp: 2018-05-01T12:57:10.317Z},
+{level: crit, message: Bad Request, timestamp: 2018-05-01T12:58:21.964Z},

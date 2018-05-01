@@ -5,7 +5,7 @@
 .vote-row i {
     cursor: pointer;
     transition: color ease-in 0.2s;
-    animation-delay:  0.2s !important;
+    animation-delay: 0.2s !important;
 }
 
 @keyframes bounce-up {
@@ -54,16 +54,43 @@
     animation: bounce-down 1s ease-in forwards;
 }
 
-
 input[type=text] {
-    width: 130px;
-    -webkit-transition: width 1.4s ease-in;
-    -moz-transition: width 1.4s ease-in ;
-    -ms-transition: width 1.4s ease-in ;
-    -o-transition: width 1.4s ease-in ;
-    transition: width 1.4s ease-in ;
+    width: 150px;
+    -webkit-transition: width .5s !important;
+    -moz-transition: width .5s !important;
+    -ms-transition: width .5s !important;
+    -o-transition: width .5s !important;
+    transition: width .5s !important;
 }
 
 input[type=text]:focus {
-    width: 100%;
+    width: 300px;
+}
+
+.pointer-mouse {
+    cursor: pointer;
+}
+
+.name .image img {
+    height: 55px;
+}
+
+.changeheight {
+    height: 90px !important;
+}
+.description {
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s !important;
+    cursor: pointer;
+}
+
+.description:hover {
+    color: #000 !important;
+}
+
+.result {
+    cursor: default !important;
 }

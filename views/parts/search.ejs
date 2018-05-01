@@ -1,8 +1,9 @@
-<div class="ui search">
+<div class="ui search category">
     <div class="ui left icon input">
         <input class="prompt" placeholder="Search Spotify" type="text">
-        <i class="music icon"></i>
+        <i class="icon spotify"></i>
     </div>
+    <div class="results"></div>
 </div>
 <style>
 
@@ -11,8 +12,67 @@
 <script>
     $('.ui.search')
         .search({
-            type: 'category',
+            onSelect: function(result, results) {
+                return false
+            },
             minCharacters: 3,
+            type: 'special',
+            templates: {
+                special: function (response) {
+                    let html = "";
+                    let results = response.results;
+                    for (let key in results) {
+                        if (!results.hasOwnProperty(key)) continue;
+                        let result = results[key]
+
+                        let category = $(document.createElement("div"));
+                        category.addClass("category")
+
+                        let name = $(document.createElement("div"));
+                        name.addClass("name")
+
+                        let image = $(document.createElement("div"))
+                        image.addClass("image")
+
+                        let image_tag = $(document.createElement("img"))
+                        image_tag.attr("src", result.image)
+                        image_tag.attr("onclick", "$('.prompt').val('spotify:album:" + result.albumID  + "');")
+
+                        image.append(image_tag)
+                        name.append(image)
+                        name.append(result.name)
+
+                        category.append(name)
+
+
+                        let results_div = $(document.createElement("div"));
+                        results_div.addClass("results transition visible");
+
+                        for (let i = 0; i < result.results.length; i++) {
+                            let object = result.results[i];
+
+                            let result_a = $(document.createElement("div"));
+                            result_a.addClass("result")
+                            if (result.results.length === 1) {
+                                result_a.addClass("changeheight")
+                            }
+                            //TODO onclick a should add element to vote or smth
+
+                            let content = $(document.createElement("div"))
+                            content.addClass("content")
+                            content.html("<div class='title'>" + object.title + "</div><div class='description' onclick='$(\".prompt\").val(\"spotify:artist:" + result.artistID + "\")'>" + object.description + "</div>")
+
+                            result_a.append(content)
+                            results_div.append(result_a)
+                        }
+
+                        results_div.css("display", "table-cell !important")
+                        category.append(results_div)
+                        html += category[0].outerHTML
+                    }
+                    return html
+                }
+            },
             apiSettings: {
                 onResponse: function (githubResponse) {
                     let response = {
@@ -37,19 +97,24 @@
                         if (response.results[album] === undefined) {
                             response.results[album] = {
                                 name: album,
-                                results: []
+                                image: item.album.images[2].url,
+                                albumID: item.album.id,
+                                songID: item.id,
+                                artistID: item.artists[0].id,
+                                results: [],
+
                             };
                         }
                         // add result to category
                         response.results[album].results.push({
                             title: item.name,
                             description: "by " + artists,
-                            url: item.external_urls.spotify
+                            url: item.external_urls.spotify,
                         });
                     });
                     return response;
                 },
                 url: '//localhost:8888/search/{query}'
-            }
+            },
         });
 </script>
